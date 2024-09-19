@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h2 id="demo">Lorem ipsum dolor sit amet.</h2>
+    <!--start  date -->
+    <button onclick="document.getElementById('date').innerHTML=Date();">date and time</button>
+    <p id="date"></p>
+    <!-- end date -->
+    <!-- start  Light Bulb -->
+    <button onclick="document.getElementById('off').src='img/pic_bulbon.gif'">Turn on the light</button>
+    <img src="img/pic_bulboff.gif" id="off">
+    <button onclick="document.getElementById('off').src='img/pic_bulboff.gif'">Turn off the light</button>
+    <!-- end  Light Bulb -->
+    <script src="js/main.js"></script>
+</body>
+</html>
